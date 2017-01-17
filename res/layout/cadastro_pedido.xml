@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/txtCadPedidoMesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtCadPedidoMesa"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+            android:id="@+id/spnPedidoMesa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+             android:layout_below="@+id/txtCadPedidoMesa"/>
+
+    <Button
+        android:id="@+id/btCadPedidoPizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtCadPedidoPizza"
+        android:text="@string/btCadPedidoPizza" />
+
+    <Button
+        android:id="@+id/btCadPedidoBebida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtCadPedidoBebida"
+        android:text="@string/btCadPedidoBebida" />
+
+    <TextView
+        android:id="@+id/txtCadPedidoPizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spnPedidoMesa"
+        android:text="@string/txtCadPedidoPizza"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txtCadPedidoBebida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btCadPedidoPizza"
+        android:text="@string/txtCadPedidoBebida"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btCadPedidoListar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btCadPedidoCancelar"
+        android:layout_alignBottom="@+id/btCadPedidoCancelar"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btListar" />
+
+    <Button
+        android:id="@+id/btCadPedidoEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btCadPedidoListar"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btCadPedidoBebida"
+        android:layout_toLeftOf="@+id/btCadPedidoListar"
+        android:text="@string/btCadPedidoEnviar" />
+
+    <Button
+        android:id="@+id/btCadPedidoCancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btCadPedidoBebida"
+        android:layout_toRightOf="@+id/btCadPedidoListar"
+        android:text="@string/txtPedidoPizzaBtCancelarPrato" />
+
+</RelativeLayout>
+</ScrollView>

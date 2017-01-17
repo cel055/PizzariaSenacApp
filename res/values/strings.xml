@@ -1,0 +1,38 @@
+
+<resources>
+
+    <string name="app_name">PedidosPizzaria</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="txtNome">Nome:</string>
+    <string name="txtDesc">Descrição:</string>
+    <string name="btSubmit">Submeter</string>
+    <string name="btMainCadPizza">Cadastrar Pizza</string>
+    <string name="btMainCadBebida">Cadastrar Bebida</string>
+    <string name="btMainPedido">Cadastrar Pedido</string>
+    <string name="txtCadPedidoMesa">Nº da Mesa</string>
+    <string name="txtCadPedidoPizza">Pizza</string>
+    <string name="btCadPedidoPizza">Mostrar Pizzas</string>
+    <string name="txtCadPedidoBebida">Bebida</string>
+    <string name="btCadPedidoBebida">Mostrar Bebidas</string>
+    <string name="btCadPedidoEnviar">Enviar Pedido</string>
+    <string name="txtPedidoPizzaTamanho">Tamanho</string>
+    <string name="txtPedidoPizzaSabores">Quantidade de sabores</string>
+    <string name="txtPedidoPizzaSelecione">Selecione o sabor</string>
+    <string name="btPedidoPizzaParticularidades">Particularidades</string>
+    <string name="btPedidoPizzaSubmit">Salvar Prato</string>
+    <string name="txtPedidoPizzaBorda">Borda</string>
+    <string name="txtParticularidadesAcrescimos">Acrescimos</string>
+    <string name="txtPartcularidadesDescrescimos">Descrescimos</string>
+    <string name="btParticularidadesPizzaEnviarLista">Salvar Sabor</string>
+    <string name="txtBebida">Bebida</string>
+    <string name="txtParticularidadesBebidaAcrescimo">Acrescimo Bebida</string>
+    <string name="txtParticularidadesBebidadeDecrescimo">Decrescimo Bebida</string>
+    <string name="btParticularidadesBebidaOk">Ok</string>
+    <string name="txtPedidoPizzaBtAdicionarNovoPedido">Adicionar Novo Prato</string>
+    <string name="txtPedidoPizzaBtReiniciarPrato">Refazer Este Prato</string>
+    <string name="txtPedidoPizzaBtCancelarPrato">Voltar</string>
+    <string name="btListar">Listar Pedido</string>
+
+</resources>

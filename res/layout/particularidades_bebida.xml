@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtParticularidadesBebidaAcrescimo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtParticularidadesBebidaAcrescimo"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <com.pedidospizzaria.layout.MultiSpinner
+            android:id="@+id/spnParticularidadesBebidaAcrescimo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtParticularidadesBebidaDecrescimo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtParticularidadesBebidadeDecrescimo"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <com.pedidospizzaria.layout.MultiSpinner
+            android:id="@+id/spnParticularidadesBebidaDecrescimo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btParticularidadesBebidaOk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btParticularidadesBebidaOk" />
+
+        <Button
+            android:id="@+id/btParticularidadesBebidaVoltar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtPedidoPizzaBtCancelarPrato" />
+
+    </LinearLayout>
+    
+
+</ScrollView>
